@@ -39,7 +39,7 @@ function dropdown(){
     buildChart(newData);
   }
   
-  //Building Chart function
+  //Building Chart function using presribed labels and styling
   function buildChart(sampleid){
     d3.json("samples.json").then((sampledata)=>{
         var samples = sampledata.samples;
